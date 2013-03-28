@@ -3,7 +3,7 @@
     {
       "target_name": "libuuid",
       "type": "<(library)",
-      "sources": [ "src/uuid.cc" ]
+      "sources": [ "src/libuuid.cc" ]
     }
   ]
 }
