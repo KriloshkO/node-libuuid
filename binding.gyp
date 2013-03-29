@@ -1,8 +1,11 @@
 {
   "targets": [
     {
-      "target_name": "libuuid",
-      "sources": [ "src/uuid.cc" ]
+      "target_name": "liblibuuid",
+      "sources": [ "src/uuid.cc" ],
+      "link_settings": {
+        "libraries": ["-luuid"]
+      }
     }
   ]
 }
